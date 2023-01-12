@@ -3,7 +3,9 @@ import React from 'react';
 export default function Navbar() {
     return (
         <>
-        <p>Test bar</p>
+        <div className='navbar'>
+
+        </div>
         </>
     )
 }
