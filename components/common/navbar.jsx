@@ -21,7 +21,8 @@ export default function Navbar() {
           <div>Experience</div>
         </div>
       </div>
-      <style jsx>{``}</style>
+      <style jsx>{`
+        `}</style>
     </>
   );
 }
