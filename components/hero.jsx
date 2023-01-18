@@ -16,7 +16,7 @@ export default function Hero() {
       {/* sm: flex column >md: flex row */}
       <div className="hero container mx-auto mb-5">
         <div className="hero-photo">
-          {/* <img src="" alt="João Silva photo" /> */}
+          {/* <img src="" alt="João Silva photo" className="rounded-full" /> */}
         </div>
         <div className={`${nunito.className} hero-details`}>
           <div className={`${varelaRound.className} hero-name`}>João Silva</div>
