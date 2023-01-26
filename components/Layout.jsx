@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <main className={`${nunito.className} container`}>{children}</main>
+      <main className={`${nunito.className}`}>{children}</main>
       <Footer />
     </>
   );
