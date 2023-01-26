@@ -1,13 +1,4 @@
-import { Varela_Round } from "@next/font/google";
-import { Nunito } from "@next/font/google";
-
-// Fonts
-const varelaRound = Varela_Round({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const nunito = Nunito();
+import { varelaRound } from "./common/fonts";
 
 // Default export
 export default function Hero() {
@@ -15,10 +6,10 @@ export default function Hero() {
     <>
       {/* sm: flex column >md: flex row */}
       <div className="hero container mx-auto mb-5">
-        <div className="hero-photo">
+        <div className="hero-photo mx-auto">
           {/* <img src="" alt="João Silva photo" className="rounded-full" /> */}
         </div>
-        <div className={`${nunito.className} hero-details`}>
+        <div className="hero-details mx-auto">
           <div className={`${varelaRound.className} hero-name`}>João Silva</div>
           <div className="hero-jobtitle">Full Stack Web Developer</div>
         </div>

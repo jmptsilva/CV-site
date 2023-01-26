@@ -1,6 +1,6 @@
-import Hero from "../components/hero";
-import Skills from "../components/skills";
-import Education from "../components/education";
+import Hero from "../components/Hero";
+import Skills from "../components/Skills";
+import Education from "../components/Education";
 
 export default function Home() {
   return (
